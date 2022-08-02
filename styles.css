@@ -3,12 +3,25 @@ body {
     Font-family: georgia, Arial, sans-serif;
 }
 
+.flexparent {
+    display: flex;
+    position: absolute;
+
+}
+
+.child {
+    background: peachpuff;
+    border: dotted 2px black;
+    margin: 2px;
+    font-size: 24px;
+    padding: 5px;
+}
+
 h1 {
     font-size: 60px;
     text-align: center;
-    width: page;
     border-bottom: solid 3px #c0c0c2;
-    
+    display: block;
 }
 
 .pic {
